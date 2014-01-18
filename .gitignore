@@ -5,5 +5,8 @@
 *.war
 *.ear
 
+#Target dir
+target
+
 #Osx
 .DS_Store
