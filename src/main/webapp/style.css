@@ -1,0 +1,138 @@
+/* 
+    Document   : style
+    Created on : 30-dic-2013, 12.52.15
+    Author     : Enzo
+    Description:
+        Stile assistente Awhy.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 300px;
+}
+
+.comment_box{
+    background-color:#D3E7F5; border-bottom:#ffffff solid 1px; padding-top:3px
+}
+
+a{
+    text-decoration:none;
+    color:#d02b55;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:#d02b55;
+}
+    *{margin:0;padding:0;}
+	
+#header{
+        font-family: Georgia, Times New Roman, Times, serif; 
+        font-size:20px; 
+        width: 25%;
+        padding: 0px 0px 5px 0px;
+    }
+.msg{
+        font-size:12px; 
+        color:#00858c; 
+        font-weight:bold;
+    }   
+    
+ol.timeline{
+    list-style: none;
+    font-size: 1.2em;
+    width: 220px;
+    background-color: ghostwhite;
+    border: #666666 2px solid;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow-y: auto;
+    word-wrap:break-word;
+     /* ombre interne */
+    -moz-box-shadow:  inset 4px  4px 10px #dedede;
+    -webkit-box-shadow:  inset 4px  4px 10px #dedede;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#dedede', Direction=135, Strength=10);
+    box-shadow: inset 4px 4px 10px #dedede;
+}
+
+ol.timeline li{ 
+    
+    display:none;
+    position:relative;
+    padding: 5px 2px 5px 3px;
+    font-size: 15px;
+}
+
+ol.timeline li:first-child{}
+	
+#main{
+    background-color: #FFFFFF;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Trebuchet MS";
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    border: 3px solid #00858c;
+    padding: 10px 7px 10px 10px;
+    -moz-box-shadow:  10px  10px 5px #dedede;
+    -webkit-box-shadow:  10px  10px 5px #dedede;
+    box-shadow: 10px 10px 5px #dedede;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#dedede', Direction=135, Strength=10);
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+}
+
+#flash{
+     margin-left:100px;
+}
+
+.box{
+    /*height:50px;*/
+    border-bottom:#dedede dashed 1px;
+    /*margin-bottom:20px;*/
+}
+
+#comment{
+    color:#000000;
+    font-size:14px;
+    border:#666666 solid 2px;
+    height:24px;
+    margin-bottom:10px;
+    width:220px;
+}
+
+.submit{
+    color:#FFFFFF;
+    background-color: #00858c;
+    font-size:14px;
+    border:#666666 solid 2px;
+    margin-bottom:10px;
+    width:224px;
+}
+
+.submit:disabled{
+    background-color: #8c8c8c;
+    color: #FFFFFF;
+    font-size:14px;
+    border:#00858c solid 2px;
+    margin-bottom:10px;
+    width:224px;
+}
+
+.titles{
+    font-size:13px;
+    margin-right:10px;
+}
+
+.star{
+    color:#FF0000; font-size:16px; font-weight:bold;
+    padding-left:5px;
+}
